@@ -45,3 +45,23 @@
 	- [Limiting the actions that AI can take autonomously](https://keepthefuturehuman.ai/essay/docs/executive-summary) by Anthony Aguirre
 	- [Pausing frontier AI development](https://superintelligence-statement.org/) 
 	- [Call for indefinite moratorium](https://ifanyonebuildsit.com/)
+
+
+## Building AI Safely is Hard
+
+- When AI is given a goal, it will do whatever necessary to win (i.e. Reward Misspecification) 
+	- [When AI Thinks It Will Lose, It Sometimes Cheats](https://time.com/7259395/ai-chess-cheating-palisade-research/) by Time Magazine
+- AI will fake alignment to preserve its original goals and values (i.e. Goal misgeneralization)
+	- [Alignment Faking in LLMs](https://www.anthropic.com/research/alignment-faking) by Anthropic
+- [What is AI Alignment?](https://blog.bluedot.org/p/what-is-ai-alignment?utm_source=bluedot-impact&_gl=1*4m3c0g*_gcl_aw*R0NMLjE3ODM3NzkyNjYuQ2p3S0NBancwOGZTQmhBN0Vpd0FmYlFUc0hQbDdHeHcxRTJmY2J1X005UnRJQ1QzdEM4WDl4U1FyemlldDl5SmlzSGI3Z3VrenM1UGtob0MycU1RQXZEX0J3RQ..*_gcl_au*MTI3OTkxMDQwNC4xNzgxNDE3NDU0Ljg3NDA3MjQwNy4xNzgyNjc5NDM2LjE3ODI2Nzk0MzY.)
+	- People usually call the overall problem of getting AI to do what its creator wants the "alignment problem". This resource explains how we use this term and describes the problem of reward misspecification (aka outer misalignment) and goal misgeneralisation (aka inner misalignment).
+- [Specification Gaming: How AI can turn your wishes against you](https://www.youtube.com/watch?v=jQOBaGka7O0&utm_source=bluedot-impact)
+	- This video provides an accessible explanation of why it’s difficult to get an AI to do what you want. The rewards we train AI on are usually only proxies for what we really want them to achieve. This sometimes leads to unintended consequences.
+- [Why alignment can be hard with modern deep learning](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/?utm_source=bluedot-impact)
+	- AI will not do what we expect by default. Models could be saints, sycophants or schemers. But we don’t know which it is. Researchers call the idea that smart, capable AI will not naturally be ‘aligned’ to human values the orthogonality thesis.
+- [Recent frontier models are reward hacking](https://metr.org/blog/2025-06-05-recent-reward-hacking/?utm_source=bluedot-impact)
+	- METR shows that even when explicitly telling models to solve a task in the intended way, the model often does not comply. It isn’t just the case of failing to specify the reward. Models might just choose behaviours which maximise the reward.
+- [If you remember one AI disaster make it this one](https://www.youtube.com/watch?v=r_9wkavYt4Y&utm_source=bluedot-impact)
+	- In July 2025, xAI’s Grok turned into ‘MechaHitler’. This is an example of how we don’t fully understand the effects of training models. It’s also useful to note that AI creators get to decide what ‘good’ behaviours they intend their models to perpetuate. In Musk’s case, this is ‘truth-seeking’.
+- [Multi-Agent Risks from AI](https://bluedot.org/courses/technical-ai-safety/1/3#:~:text=Multi%2DAgent%20Risks%20from%20Advanced%20AI)
+	- AI systems interacting with each other (not just humans) can fail in ways we don't yet understand—through miscoordination, conflict, or collusion—which matters because these multi-agent systems might one day manage critical infrastructure and be everywhere, but we’re only testing them in isolation.
