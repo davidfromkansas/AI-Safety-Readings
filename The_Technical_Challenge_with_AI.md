@@ -1,3 +1,5 @@
+
+Source: [Blue Dot Technical AI Safety Course](https://bluedot.org/courses/technical-ai-safety/1/1)
 ## **Live Discussion Notes:**
 * Prompt Injection, Red Teaming, and Attack Surfaces
 	* Red Teaming is like playing wack-a-mole. Fix one vulnerability, and the community (e.g., Reddit) finds new creative jailbreaks
