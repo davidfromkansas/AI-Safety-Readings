@@ -30,3 +30,18 @@
 	- Deceptive alignment raises an open question: can we trust a model that claims to be aligned?
 	- Read: [Often Know When They Are Being Evaluated](https://arxiv.org/pdf/2505.23836) by MATS/Apollo Research
 	- Read: [Eval awareness in Claude Opus 4.6’s BrowseComp performance](https://www.anthropic.com/engineering/eval-awareness-browsecomp) by Anthropic
+
+## **3 strategies for building safe AI**
+- 1) Build it slow and safely
+	- [We need Cern for AI](https://milesbrundage.substack.com/p/my-recent-lecture-at-berkeley-and)
+	- [Carefully bootstrapped alignment is hard](https://www.lesswrong.com/posts/thkAtqoQwN6DtaiGT/carefully-bootstrapped-alignment-is-organizationally-hard)
+- 2) Accept the race and push hard on the margin
+	- Re: Automating Alignment Research
+		- [Aligning somewhat superhuman models](https://situational-awareness.ai/superalignment/#The_default_plan_how_we_can_muddle_through:~:text=call%2Dfor%2Dproposals.-,Automating%20alignment%20research,-Ultimately%2C%20we%E2%80%99re%20going)
+		- [AI for AI Safety](https://joecarlsmith.com/2025/03/14/ai-for-ai-safety/) by Joe Carlsmith
+	- Re: Selectively accelerating defensive technologies over offensive ones
+		- [What is def/acc anyway?](https://defacc.substack.com/p/what-is-defacc-anyway) By Matt Clifford
+- 3) Don’t Build it
+	- [Limiting the actions that AI can take autonomously](https://keepthefuturehuman.ai/essay/docs/executive-summary) by Anthony Aguirre
+	- [Pausing frontier AI development](https://superintelligence-statement.org/) 
+	- [Call for indefinite moratorium](https://ifanyonebuildsit.com/)
